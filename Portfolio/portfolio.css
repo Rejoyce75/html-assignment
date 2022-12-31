@@ -1,0 +1,148 @@
+/**  variables **/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-portfolio{
+    background-color: rgb(137, 191, 223);
+    width: 75rem;
+    height: 51rem;
+    margin: 0 auto;
+    
+
+}
+.my-portfolio-one{
+    background-color: rgb(243, 242, 242);
+    height: 50rem;
+    width: 70rem;
+    margin:0  auto;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#one{
+    border: 2px black solid;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 2);
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    position: sticky;
+    top: ;
+    left: o;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+
+    
+}
+
+nav  a{
+    color: rgb(49, 47, 44);
+    font-size: 1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.8rem
+}
+
+h1{
+    color: rgb(8, 8, 8);
+    font-size: 2rem;
+}
+
+nav a:hover{
+    color: blue;
+    transition: 4s;
+    border-bottom: 2px solid rgb(156, 36, 36);
+    ;
+} 
+burger-menu{
+
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.bio{
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    
+}
+
+.bio h2{
+    color: rgb(10, 10, 10);
+      
+}
+
+.hero img{
+    height: 25rem;
+    width: 25rem;
+    padding: 20px;
+    border: 5px white solid;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+.main-text{
+    width: 37.5rem;
+    padding: 0.625rem;
+    width: 25rem;
+    border-radius: 6px;
+    
+}
+
+.main-skill{
+    width: 37.5rem;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    color: rgb(23, 27, 23);
+    width: 25rem;
+    
+    
+}
+span{
+    border: 0.2px black solid;
+    border-radius: 2px;
+    margin: 5px;
+    line-height: 2rem;
+    font-weight: bold;
+    color: black;
+
+}
